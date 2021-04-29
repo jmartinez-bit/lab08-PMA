@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7D339660263B31880024FE8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33965F263B31880024FE8A /* AppDelegate.swift */; };
-		7D339662263B31880024FE8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D339661263B31880024FE8A /* ViewController.swift */; };
 		7D339665263B31880024FE8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D339663263B31880024FE8A /* Main.storyboard */; };
 		7D339667263B31890024FE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D339666263B31890024FE8A /* Assets.xcassets */; };
 		7D33966A263B31890024FE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D339668263B31890024FE8A /* LaunchScreen.storyboard */; };
+		7D339672263B33E30024FE8A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D339671263B33E30024FE8A /* TableViewController.swift */; };
+		7D339674263B35AB0024FE8A /* Secciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D339673263B35AB0024FE8A /* Secciones.swift */; };
+		7D339676263B37130024FE8A /* ModeloDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D339675263B37130024FE8A /* ModeloDatos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D33965C263B31880024FE8A /* TableViewGroupedExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewGroupedExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D33965F263B31880024FE8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D339661263B31880024FE8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D339664263B31880024FE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D339666263B31890024FE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D339669263B31890024FE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D33966B263B31890024FE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D339671263B33E30024FE8A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7D339673263B35AB0024FE8A /* Secciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secciones.swift; sourceTree = "<group>"; };
+		7D339675263B37130024FE8A /* ModeloDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloDatos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				7D33965F263B31880024FE8A /* AppDelegate.swift */,
-				7D339661263B31880024FE8A /* ViewController.swift */,
+				7D339671263B33E30024FE8A /* TableViewController.swift */,
+				7D339673263B35AB0024FE8A /* Secciones.swift */,
+				7D339675263B37130024FE8A /* ModeloDatos.swift */,
 				7D339663263B31880024FE8A /* Main.storyboard */,
 				7D339666263B31890024FE8A /* Assets.xcassets */,
 				7D339668263B31890024FE8A /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D339662263B31880024FE8A /* ViewController.swift in Sources */,
+				7D339674263B35AB0024FE8A /* Secciones.swift in Sources */,
 				7D339660263B31880024FE8A /* AppDelegate.swift in Sources */,
+				7D339672263B33E30024FE8A /* TableViewController.swift in Sources */,
+				7D339676263B37130024FE8A /* ModeloDatos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
